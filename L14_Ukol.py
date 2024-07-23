@@ -46,7 +46,7 @@ class BotyView:
 
     def ziskej_podrobnosti_boty(self):
         pohlavi = input("Zadej pohlaví (muž/žena): ")
-        typ = input("Zadej typ bot (sneakers, boty, sandály, společenské boty, atd.): ")
+        typ = input("Zadej typ bot (poloboty, sandály, společenské boty, běžecké): ")
         barva = input("Zadej barvu: ")
         cena = float(input("Zadej cenu: "))
         znacka = input("Zadej značku: ")
@@ -101,7 +101,7 @@ def menu():
             print("Ukončuji program.")
             break
         else:
-            print("Neplatná volba. Zkuste to znovu.")
+            print("Špatná volba. Zkus to znovu.")
 
 if __name__ == "__main__":
     menu()
